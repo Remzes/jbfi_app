@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84ebc163-43be-46b0-8424-d2220cdf77d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/cleint/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleint/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/cleint/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleint/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cleint/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleint/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/cleint/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/auth_msrvc/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/auth_msrvc/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
-    </list>
+    <list default="true" id="84ebc163-43be-46b0-8424-d2220cdf77d2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -1642,12 +1631,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546147752539</updated>
-      <workItem from="1546147758863" duration="2456000" />
+      <workItem from="1546147758863" duration="2709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2456000" />
+    <option name="totallyTimeSpent" value="2709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="832" extended-state="0" />
