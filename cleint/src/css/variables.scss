@@ -1,0 +1,40 @@
+$body_backround: #eeeeee;
+$white: #fff;
+$box-shadow-section: rgba(174,174,174,0.5);
+
+// Text colors
+$text: (
+  mainText: #464646,
+  subText: #999999,
+  linkText: #1463d9,
+  errorText: #ff5e1b
+);
+
+$background: (
+  mainBColor: #ebebeb,
+);
+
+// Input colors
+$input: (
+  mainBColor: #ebebeb,
+  errorBColor: #ffedeb,
+  activeBColor: #f2f2f2,
+);
+
+// Button colors
+$button: (
+  primaryButton: (
+    bColor: #5677fc,
+    bColorOnHover: #738efa,
+    bColorActive: #435dc8,
+    textColor: #fff,
+  ),
+  uploadButton: (
+    bColor: #5677fc,
+    bColorOnHover: #738efa,
+    bColorActive: #435dc8,
+    textColor: #fff,
+    textColorOnHover: #fff,
+    textColorActive: #fff
+  )
+);

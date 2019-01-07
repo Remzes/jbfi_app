@@ -1,0 +1,4 @@
+.link {
+  color: map_get($text, "linkText") !important;
+  font-weight: bold !important;
+}

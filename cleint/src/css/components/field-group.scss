@@ -1,0 +1,10 @@
+.field-group {
+  .field:first-of-type {
+    margin-top: 0
+  }
+  .field {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,18 @@
+.date-of-birthday {
+  margin-top: 20px;
+  .ant-select-selection {
+    background: map_get($input, 'mainBColor');
+    border: none;
+  }
+  &__fields {
+    display: flex;
+    justify-content: space-between;
+    .field {
+      margin-top: 5px;
+      flex-basis: 25%;
+    }
+    .field:nth-of-type(2) {
+      flex-basis: 40%;
+    }
+  }
+}

@@ -1,3 +1,17 @@
-body {
-  background-color: white;
-}
+// Variables
+@import "variables";
+
+// Main Setup
+@import "main";
+
+// HTML DOM components
+@import "components/index";
+
+// Components
+@import "../decorators/Section/scss/index";
+@import "../decorators/FormLayouts/AuthFormLayout/scss/index";
+@import "../components/Register/scss/index";
+@import "../components/SetupProfile/scss/index";
+@import "../components/FormGroups/DOB/scss/index";
+@import "../decorators/FormLayouts/OnboardingFormLayout/scss/index";
+@import "../components/FormGroups/ImageUpload/scss/index";

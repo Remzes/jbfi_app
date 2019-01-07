@@ -1,0 +1,26 @@
+.file-upload {
+  display: flex;
+  flex-direction: column !important;
+  margin: 30px 0 30px !important;
+  color: map_get($text, "subText");
+  user-select: none;
+
+  &__avatar {
+    margin: 10px auto 15px auto;
+    width: 150px;
+    height: 150px;
+  }
+
+  &__description {
+    text-align: center;
+  }
+
+  &__buttons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    button:first-of-type {
+      margin-right: 10px;
+    }
+  }
+}

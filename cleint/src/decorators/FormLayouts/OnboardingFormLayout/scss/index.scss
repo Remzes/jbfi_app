@@ -1,0 +1,10 @@
+.onboarding_form_layout__head {
+  &__title {
+    color: map_get($text, 'mainText');
+    font-size: 27px;
+    font-weight: bold;
+    border-bottom: 2px solid map_get($background, 'mainBColor');
+    padding-bottom: 18px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,48 @@
+.button {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  box-shadow: none !important;
+  height: 36px !important;
+  line-height: 36px !important;
+  padding: 0 13px !important;
+  border: 0 !important;
+
+  // Primary Type button
+  &.-primary {
+    color: $white;
+    background-color: map_get(map_get($button, "primaryButton"), "bColor") !important;
+
+    &:hover {
+      background-color: map_get(map_get($button, "primaryButton"), "bColorOnHover") !important;
+    }
+    &:focus {
+      background-color: map_get(map_get($button, "primaryButton"), "bColorOnHover") !important;
+    }
+    &:active {
+      background-color: map_get(map_get($button, "primaryButton"), "bColorActive") !important;
+    }
+  }
+
+  &.-upload {
+    &:focus {
+      color: map_get(map_get($button, "uploadButton"), "textColorOnHover") !important;
+    }
+    &:hover {
+      color: map_get(map_get($button, "uploadButton"), "textColorOnHover") !important;
+    }
+    &:active {
+      color: map_get(map_get($button, "uploadButton"), "textColorActive") !important;
+    }
+  }
+}
+
+// Buttons in the form
+.form-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .button {
+    flex: 1;
+  }
+}

@@ -1,0 +1,57 @@
+.input {
+  font-family: 'PT Sans', sans-serif !important;
+  background: map_get($input, "mainBColor") !important;
+  color: map_get($text, "mainText") !important;
+  border: 0 !important;
+  font-size: 15px !important;
+  line-height: 20px !important;
+  padding: 10px 10px !important;
+  display: block !important;
+  width: 100% !important;
+  border-radius: 0 !important;
+
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0px 1000px map_get($input, "mainBColor") inset !important;
+
+  }
+
+  &::placeholder {
+    color: map_get($text, "subText") !important;
+  }
+
+  &:focus {
+    box-shadow: none !important;
+    outline: 0;
+    background: map_get($input, "activeBColor") !important;
+  }
+}
+
+.validation-error {
+  margin-top: 8px;
+  font-size: 15px;
+  line-height: 21px;
+  display: block;
+  color: map_get($text, "errorText");
+  & + .input {
+    background: map_get($input, "errorBColor") !important;
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    &:-webkit-autofill:active  {
+      -webkit-box-shadow: 0 0 0px 1000px map_get($input, "errorBColor") inset !important;
+    }
+  }
+}
+
+.input-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  &.-required:after {
+    content: '*';
+    color: red;
+    margin-left: 3px;
+  }
+}

@@ -1,24 +1,18 @@
 {
-  "name": "auth_msrvc",
+  "name": "images_microservice",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon start.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "jsonwebtoken": "^8.4.0",
     "mongoose": "^5.4.1",
-    "passport": "^0.4.0",
-    "passport-custom": "^1.0.5",
-    "passport-local": "^1.0.0",
     "seneca": "^3.8.0-rc3",
     "seneca-web": "^2.2.1",
     "seneca-web-adapter-express": "^1.1.2"
